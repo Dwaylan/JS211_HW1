@@ -10,6 +10,8 @@ console.log(new Date)
 const displayDate = () => {
   const currentDate = new Date()
 
+}
+
 //   document.getElementById("display-element").innerHTML = currentDate;
 // }
 //  const displayDate = ()
@@ -43,8 +45,6 @@ const displayDate = () => {
 
   
 // Write a JavaScript program that adds 2 numbers together.
-// I tested BOTH of these in repl.it but it wont work on my terminal
-
 let a = 5;
 let b = 10;
 
@@ -52,11 +52,9 @@ let sum = a + b;
 
 console.log("The Sum is", sum);
 
-// I tested the this in repl.it but it wont work on my terminal
 
 // Adding two numbers with the arguments of "X" and "Y" to return the sum of 
 // said numbers
-
 function addingTwoNumbers(x,y){
   const sum = x + y;
 
@@ -65,31 +63,32 @@ function addingTwoNumbers(x,y){
 //To call function: addingTwoNumbers(x,y);
 
 // Write a JavaScript program that runs only when 2 things are true.
-
-  // "A" must always equal 50
-  const A = 50
-  // "B" must always equal 25
-  const B = 25
-  // A must be 50 AND B must be 25. If not return false 
+// If "A" is greater than 10 AND "B" is less than 50 return true. Else return false.
   const truthyFunction = (A, B) => {
-    if (A, B) {
+    if (A > 10 && B < 50) {
       return true
     }
     else {
       return false
     }
   }
+  // Double ampersant is the "and"
   // To call function: truthyFunction(A,B);
 
 
 
-
-
 // Write a JavaScript program that runs when 1 of 2 things are true.
-
-  const oneOfTwoFunction = () => {
-
+// If "A" is greater than 10 OR "B" is less than 50 return true. Else return false.
+const eitherOrFunction = (A, B) => {
+  if ((A > 10) || (B < 50)) {
+    return true
   }
+  else {
+    return false
+  }
+}
+//  Double line is the "or"
+//  To call function: eitherOrFunction(A,B);
 
 // Write a JavaScript program that runs when both things are not true.  
 
