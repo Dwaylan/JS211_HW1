@@ -10,9 +10,9 @@ console.log(new Date)
 const displayDate = () => {
   const currentDate = new Date()
 
-  document.getElementById("display-element").innerHTML = currentDate;
-}
- 
+//   document.getElementById("display-element").innerHTML = currentDate;
+// }
+//  const displayDate = ()
 
 // Write a JavaScript program to convert a number to a string.
 
@@ -24,28 +24,78 @@ const displayDate = () => {
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
   // * Boolean
+
+
   // * Null
+
+
   // * Undefined
+
+
   // * Number
+
+
   // * NaN
+
+  
   // * String
   
 
   
 // Write a JavaScript program that adds 2 numbers together.
+// I tested BOTH of these in repl.it but it wont work on my terminal
 
+let a = 5;
+let b = 10;
 
+let sum = a + b;
+
+console.log("The Sum is", sum);
+
+// I tested the this in repl.it but it wont work on my terminal
+
+// Adding two numbers with the arguments of "X" and "Y" to return the sum of 
+// said numbers
+
+function addingTwoNumbers(x,y){
+  const sum = x + y;
+
+  return sum
+}
+//To call function: addingTwoNumbers(x,y);
 
 // Write a JavaScript program that runs only when 2 things are true.
+
+  // "A" must always equal 50
+  const A = 50
+  // "B" must always equal 25
+  const B = 25
+  // A must be 50 AND B must be 25. If not return false 
+  const truthyFunction = (A, B) => {
+    if (A, B) {
+      return true
+    }
+    else {
+      return false
+    }
+  }
+  // To call function: truthyFunction(A,B);
+
+
 
 
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
 
+  const oneOfTwoFunction = () => {
 
+  }
 
 // Write a JavaScript program that runs when both things are not true.  
 
+  const neitherOfTwoFunction = () => {
+
+  }
 // ***************************
 //         PART TWO
 // ***************************
